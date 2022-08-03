@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+@tailwind base;
+@tailwind components;
+ .card{
+    @apply bg-white rounded overflow-hidden shadow-md relative hover:shadow-lg;
+}
+
+@tailwind utilities;
+
+.Poppins{
+    font-family: Poppins, sans-serif;
+}
+
+
+.badge{
+    @apply bg-gray-300 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2;
+}
